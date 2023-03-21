@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2>#SUNO~SOME</h2>
+            <img src="./2754580_woman_business woman_avatar_female_icon.png" alt="" style="width:100px;height:100px;margin:0px;">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                    <img src="./1564535_customer_user_userphoto_account_person_icon.png" alt="" class="icon">
+                       <input type="text" placeholder="Name" id="uname">
+                    </div>
+                     <div class="input-field">
+                        <img src="./1564504_email_letter_mail_message_icon.png" alt="" class="icon">
+                        <input type="email" placeholder="Email" id="eid">
+                    </div>
+                     <div class="input-field">
+                        <img src="./1564520_code_open_password_icon.png" alt="" class="icon">
+                        <input type="password" placeholder="Password" id="pword">
+                    </div>
+                    <p>Lost password<a href="#" onclick="forgetp()">Click Here!</a></p>
+                </div>
+                <div class="btn-field">
+                    <button id="signupBtn" onclick="newsignup();createUser();">Sign Up</button>
+                    <button id="signinBtn" class="disable" onclick="newsignin();">Sign In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
